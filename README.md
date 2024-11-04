@@ -11,7 +11,7 @@ This bootstrap template is intended to help you deliever a amazing website which
 
 - [Brief](https://noroff.sharepoint.com/:b:/s/FED1OSL24/EXvJ9TMGmU9Fsok1mQq1H08BKzQaheKEX5-p2e9czBsIdQ?e=TDbpCH)
 - [Design](<[_LINK_TO_FIGMA](https://www.figma.com/proto/mGplr3KAdMUUy4W6YiKshm/Design--CA--Project?node-id=383-1871&t=49Io8IWMx0CnAApi-1)_>)
-- [Production deploy](_LINK_TO_WEBSITE_)
+- [Production deploy](https://sergiu-sa.github.io/pro-school-react/)
 - [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
 
 ## Deployment
@@ -35,13 +35,13 @@ In the project directory, you can run:
 
 All of these todo's must be done to pass the asssignment.
 
-- [ ] The project has a readme with a link to the live site and a link to the figma design.
-- [ ] The project has an publically accessible git repository.
-- [ ] The project has a live site (Can be hosted on Netlify or vercel for free).
-- [ ] The project has a rationale document that explains the design decisions you made.
-- [ ] Your last commit must be before your deadline.
-- [ ] You may use a build tool such as Vite, Parcel but not a framework like Gatsby or Next.js.
-- [ ] The project has been submitted on Moodle
+- [x] The project has a readme with a link to the live site and a link to the figma design.
+- [x] The project has an publically accessible git repository.
+- [x] The project has a live site (Can be hosted on Netlify or vercel for free).
+- [x] The project has a rationale document that explains the design decisions you made.
+- [x] Your last commit must be before your deadline.
+- [x] You may use a build tool such as Vite, Parcel but not a framework like Gatsby or Next.js.
+- [x] The project has been submitted on Moodle
 
 ## Checklist
 
