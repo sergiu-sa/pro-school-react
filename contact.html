@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Square Eyes | Contact</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container-nav">
+        <!-- Navigation Bar -->
+        <nav>
+          <!-- Hamburger Menu (Checkbox) -->
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+          <label for="menu-toggle" class="hamburger-menu">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-times"></i>
+          </label>
+
+          <div class="c-logo-nav">
+            <img
+              src="/media/SquareEyes_Logo.png"
+              alt="A pair of glasses with eyes on top of the writing logo Square Eyes"
+            />
+          </div>
+
+          <!-- Navigation Links -->
+          <ul id="nav-links">
+            <li>
+              <a href="/index.html"><i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li>
+              <a href="/film.html"><i class="fa-solid fa-film"></i>Films</a>
+            </li>
+            <li>
+              <a href="/about.html"
+                ><i class="fa-regular fa-address-card"></i>About</a
+              >
+            </li>
+          </ul>
+
+          <!-- Icon Buttons -->
+          <div class="c-header-icon-buttons">
+            <div class="icon-button-div">
+              <a class="icon-button"><i class="fa-solid fa-circle-user"></i></a>
+            </div>
+            <div class="icon-button-div">
+              <a class="icon-button"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Search Bar -->
+        <div class="c-header-search">
+          <label for="search">Search for Independent Movies</label>
+          <input
+            type="search"
+            id="search"
+            name="search"
+            placeholder="Search"
+            aria-describedby="searchLabel"
+          />
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Support Section -->
+    <section class="support-page-section">
+      <div class="welcome-container">
+        <h2 class="welcome-title">Welcome to our support page!</h2>
+        <p class="welcome-text">
+          We're here to help you with any problems you may be having with our
+          product.
+        </p>
+        <div class="image-gallery">
+          <img
+            src="/media/movie-image-1/moonlight.jpg"
+            alt="Movie 1"
+            class="gallery-image"
+            aria-describedby="support-movie-poster-1"
+          />
+
+          <img
+            src="/media/movies-image/green-book.jpg"
+            alt="Movie 2"
+            class="gallery-image"
+            aria-describedby="support-movie-poster-2"
+          />
+          <img
+            src="/media/movie-image-1/the-french-dispatch.jpg"
+            alt="Movie 1"
+            class="gallery-image"
+            aria-describedby="support-movie-poster-3"
+          />
+
+          <img
+            src="/media/movie-image-1/anatomy-of-a-murder.jpg"
+            alt="Movie 2"
+            class="gallery-image"
+            aria-describedby="support-movie-poster-4"
+          />
+          <img
+            src="/media/movie-image-1/little-miss-sunshine-1.jpg"
+            alt="Movie 1"
+            class="gallery-image"
+            aria-describedby="support-movie-poster-5"
+          />
+
+          <img
+            src="/media/movie-image-1/lord-of-war.webp"
+            alt="Movie 2"
+            class="gallery-image"
+            aria-describedby="support-movie-poster-6"
+          /><img
+            src="/media/movies-image/a-quiet-place.webp"
+            alt="Movie 1"
+            class="gallery-image"
+            aria-describedby="support-movie-poster-7"
+          />
+
+          <img
+            src="/media/movie-image-1/moon-1.jpg"
+            alt="Movie 2"
+            class="gallery-image"
+            aria-describedby="support-movie-poster-8"
+          />
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="form-container">
+        <form class="support-form">
+          <div class="input-row">
+            <div class="input-group">
+              <label for="first_name" class="form-label">First Name</label>
+              <input
+                type="text"
+                id="first_name"
+                name="first_name"
+                placeholder="Enter First Name"
+                class="form-input"
+              />
+            </div>
+            <div class="input-group">
+              <label for="last_name" class="form-label">Last Name</label>
+              <input
+                type="text"
+                id="last_name"
+                name="last_name"
+                placeholder="Enter Last Name"
+                class="form-input"
+              />
+            </div>
+          </div>
+          <div class="input-row">
+            <div class="input-group">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                class="form-input"
+              />
+            </div>
+            <div class="input-group">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Phone Number"
+                class="form-input"
+              />
+            </div>
+          </div>
+          <div class="input-group-full">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Enter Your Message"
+              class="form-textarea"
+            ></textarea>
+          </div>
+          <div class="terms-and-submit">
+            <div class="terms-row">
+              <input type="checkbox" id="terms" name="terms" class="checkbox" />
+              <label for="terms"
+                >I agree with Terms of Use and Privacy Policy</label
+              >
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact the Director Section -->
+    <section class="contact-director-section">
+      <div class="director-content">
+        <h2 class="director-title">Contact the Director</h2>
+        <p class="director-description">
+          Want to reach out to the director for feedback or support their work?
+          You can contact, support, and rate their movies directly through this
+          section.
+        </p>
+        <form class="director-form">
+          <div class="input-row">
+            <div class="input-group">
+              <label for="director_name" class="form-label"
+                >Director's Name</label
+              >
+              <input
+                type="text"
+                id="director_name"
+                name="director_name"
+                placeholder="Enter Director's Name"
+                class="form-input"
+              />
+            </div>
+            <div class="input-group">
+              <label for="movie_title" class="form-label">Movie Title</label>
+              <input
+                type="text"
+                id="movie_title"
+                name="movie_title"
+                placeholder="Enter Movie Title"
+                class="form-input"
+              />
+            </div>
+          </div>
+          <div class="input-group-full">
+            <label for="message_director" class="form-label">Message</label>
+            <textarea
+              id="message_director"
+              name="message_director"
+              placeholder="Enter Your Message"
+              class="form-textarea"
+            ></textarea>
+          </div>
+          <div class="terms-and-submit">
+            <button type="submit" class="submit-button">
+              Contact Director
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ Section  -->
+
+    <section class="faq-section">
+      <div class="faq-header">
+        <h2 class="faq-title">Frequently<br />Asked<br />Questions</h2>
+        <p class="faq-subtitle">
+          Got a questions? We got answers! Check out our FAQ section for
+          answers.
+        </p>
+        <button class="ask-question-button">Ask a Question</button>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span class="faq-number">01</span>
+            What is Square Eyes?
+          </summary>
+          <div class="faq-answer">
+            Square Eyes is a streaming service that offers a curated collection
+            of independent films and documentaries from around the world. Our
+            mission is to support independent filmmakers and bring unique
+            stories to our audience.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span class="faq-number">02</span>
+            How much does Square Eyes cost?
+          </summary>
+          <div class="faq-answer">
+            Square Eyes offers multiple subscription plans to fit your budget.
+            You can choose a monthly, quarterly, or annual plan, with discounts
+            available for long-term subscriptions. Check our pricing page for
+            the latest details.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span class="faq-number">03</span>
+            What content is available on Square Eyes?
+          </summary>
+          <div class="faq-answer">
+            Our platform offers a wide range of independent films, including
+            genres like drama, comedy, horror, documentary, and more. We focus
+            on diverse, lesser-known films that provide fresh perspectives and
+            storytelling.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span class="faq-number">04</span>
+            How can i watch Square Eyes?
+          </summary>
+          <div class="faq-answer">
+            SYou can watch Square Eyes on any internet-connected device. We
+            support smartphones, tablets, computers, and smart TVs. Simply
+            download our app or access the website and log into your account.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span class="faq-number">05</span>
+            How do i sign up for Square Eyes?
+          </summary>
+          <div class="faq-answer">
+            To sign up, click on the "Sign Up" button on our homepage. You’ll be
+            prompted to create an account and choose a subscription plan. After
+            payment, you’ll have immediate access to our library.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span class="faq-number">06</span>
+            What is the Square Eyes free trial?
+          </summary>
+          <div class="faq-answer">
+            We offer a 7-day free trial for new users to explore our library and
+            see if Square Eyes is right for them. You can cancel anytime during
+            the trial without being charged.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span class="faq-number">07</span>
+            How do i contact Square Eyes customer support?
+          </summary>
+          <div class="faq-answer">
+            Our support team is here to help! You can reach us via the "Contact"
+            page on our website, where you’ll find a form to submit your
+            questions. Alternatively, email us at support@squareeyes.com.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span class="faq-number">08</span>
+            What are the payments methods accepted by Square Eyes?
+          </summary>
+          <div class="faq-answer">
+            We accept various payment methods, including major credit cards
+            (Visa, MasterCard, American Express) and PayPal. We also plan to add
+            more payment options in the future.
+          </div>
+        </details>
+
+        <!-- Additional FAQ items as needed -->
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="c-footer">
+      <div class="footer-logo-container">
+        <img
+          class="logo-img"
+          src="/media/SquareEyes_Logo.png"
+          alt="A pair of glasses with eyes on top of the writing logo Square Eyes"
+          aria-describedby="logo-image"
+        />
+      </div>
+      <div class="footer-menu">
+        <small> Copyright 2024 Square Eyes CO.</small>
+        <a class="footer-menu-items">Privacy Policy</a>
+        <a class="footer-menu-items">Terms & Conditions</a>
+        <a class="footer-menu-items">Cookie Policy</a>
+        <a href="/contact.html" class="footer-menu-items">Contact </a>
+
+        <div class="fa-brands-icon-container">
+          <a class="fa-brands-title"> Follow Square Eyes on social</a>
+          <div class="fa-brands-icons">
+            <a><i class="fa-brands fa-facebook"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-discord"></i></a>
+            <a><i class="fa-brands fa-twitch"></i></a>
+            <a><i class="fa-brands fa-square-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr style="width: 98%; align-self: center; background-color: #ffe5ba" />
+    </footer>
+  </body>
+</html>

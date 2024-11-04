@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Square Eyes | Film</title>
+    <link rel="stylesheet" href="/css/video-buy-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container-nav">
+        <!-- Navigation Bar -->
+        <nav>
+          <!-- Hamburger Menu (Checkbox) -->
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+          <label for="menu-toggle" class="hamburger-menu">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-times"></i>
+          </label>
+
+          <div class="c-logo-nav">
+            <img
+              src="/media/SquareEyes_Logo.png"
+              alt="A pair of glasses with eyes on top of the writing logo Square Eyes"
+            />
+          </div>
+
+          <!-- Navigation Links -->
+          <ul id="nav-links">
+            <li>
+              <a href="/index.html"><i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li>
+              <a href="/film.html"><i class="fa-solid fa-film"></i>Films</a>
+            </li>
+            <li>
+              <a href="/about.html"
+                ><i class="fa-regular fa-address-card"></i>About</a
+              >
+            </li>
+          </ul>
+
+          <!-- Icon Buttons -->
+          <div class="c-header-icon-buttons">
+            <div class="icon-button-div">
+              <a class="icon-button"><i class="fa-solid fa-circle-user"></i></a>
+            </div>
+            <div class="icon-button-div">
+              <a class="icon-button"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Search Bar -->
+        <div class="c-header-search">
+          <label for="search">Search for Independent Movies</label>
+          <input
+            type="search"
+            id="search"
+            name="search"
+            placeholder="Search"
+            aria-describedby="searchLabel"
+          />
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Video Preview  Banner Section -->
+
+    <div class="movie-section">
+      <div class="backdrop">
+        <div class="content">
+          <div class="movie-info">
+            <div class="poster"></div>
+            <div class="details">
+              <h2 class="movie-title">Joker: Folie à Deux</h2>
+              <div class="movie-meta">
+                <span class="genre"><i class="fas fa-film"></i> Drama</span>
+                <span class="genre"><i class="fas fa-film"></i> Thriller</span>
+                <span class="duration"
+                  ><i class="fas fa-clock"></i>138 min</span
+                >
+                <span class="rating"><i class="fas fa-star"></i> 7.1 / 10</span>
+              </div>
+              <!-- Button to open the modal -->
+              <a
+                href="#modal"
+                class="open-modal-btn"
+                aria-describedby="movie-rent-or-buy"
+                >Rent or Buy</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trailer Section  -->
+
+    <div class="trailer-section">
+      <div class="video-container">
+        <video controls poster="/media/trailers/joker-3.jpg">
+          <source src="/media/trailers/trailer-video.mp4" type="video/mp4" />
+          Your browser does not support the HTML video.
+        </video>
+      </div>
+      <div class="trailer-details">
+        <h2>Joker: Folie à Deux</h2>
+        <div class="genres">
+          <span class="genre">Action</span>
+          <span class="genre">Drama</span>
+          <span class="genre">Thriller</span>
+          <span class="genre">Sci-Fi</span>
+          <span class="genre">Crime</span>
+          <span class="genre">Psychological</span>
+        </div>
+        <p>
+          Struggling with his dual identity, failed comedian Arthur Fleck meets
+          the love of his life, Harley Quinn, while incarcerated at Arkham State
+          Hospital.
+        </p>
+        <div class="trailer-buttons">
+          <!-- Button to open the modal -->
+          <a
+            href="#modal"
+            class="open-modal-btn"
+            aria-describedby="rent-or-buy-button"
+            >Rent or Buy</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="cast-collection-section">
+      <!-- Top Cast Section -->
+      <div class="top-cast">
+        <h3>Top Cast</h3>
+        <div class="cast-grid">
+          <div class="cast-member">
+            <img
+              src="/media/actors_image_square_eyes/Rebecca-Hall.webp"
+              alt="Rebecca Hall"
+              aria-describedby="cast-description-1"
+            />
+            <p class="cast-name">Rebecca Hall</p>
+            <p class="character-name">Ilene Andrews</p>
+          </div>
+
+          <div class="cast-member">
+            <img
+              src="/media/actors_image_square_eyes/Brian-Tyree-Henry.webp"
+              alt="Brian Tyree Henry"
+              aria-describedby="cast-description-2"
+            />
+            <p class="cast-name">Brian Tyree Henry</p>
+            <p class="character-name">Bernie Hayes</p>
+          </div>
+
+          <div class="cast-member">
+            <img
+              src="/media/actors_image_square_eyes/Rachel-House.webp"
+              alt="Rachel House"
+              aria-describedby="cast-description-3"
+            />
+            <p class="cast-name">Rachel House</p>
+            <p class="character-name">Hampton</p>
+          </div>
+
+          <div class="cast-member">
+            <img
+              src="/media/actors_image_square_eyes/Ron-Smyck.webp"
+              alt="Ron Smyck"
+              aria-describedby="cast-description-4"
+            />
+            <p class="cast-name">Ron Smyck</p>
+            <p class="character-name">Harris</p>
+          </div>
+          <div class="cast-member">
+            <img
+              src="/media/actors_image_square_eyes/Dan-Stevens.webp"
+              alt="dan Stevens"
+              aria-describedby="cast-description-5"
+            />
+            <p class="cast-name">Dan Stevens</p>
+            <p class="character-name">Trapper</p>
+          </div>
+          <div class="cast-member">
+            <img
+              src="/media/actors_image_square_eyes/Kaylee-Hottle.webp"
+              alt="Kaylee"
+              aria-describedby="cast-description-6"
+            />
+            <p class="cast-name">Kaylee Hottle</p>
+            <p class="character-name">Jia</p>
+          </div>
+          <div class="cast-member">
+            <img
+              src="/media/actors_image_square_eyes/Chantelle-Jamieson.webp"
+              alt="Chantelle-Jamieson"
+              aria-describedby="cast-description-7"
+            />
+            <p class="cast-name">Chantelle Jamieson</p>
+            <p class="character-name">Ilene Jayne</p>
+          </div>
+          <div class="cast-member">
+            <img
+              src="/media/actors_image_square_eyes/Greg-Hatton.webp"
+              alt="Greg-Hatton"
+              aria-describedby="cast-description-8"
+            />
+            <p class="cast-name">Greg Hatton</p>
+            <p class="character-name">Lewis</p>
+          </div>
+          <div class="cast-member">
+            <img
+              src="/media/actors_image_square_eyes/Alex-Ferns.webp"
+              alt="Alex-Ferns"
+              aria-describedby="cast-description-9"
+            />
+            <p class="cast-name">Alex Ferns</p>
+            <p class="character-name">Mikael</p>
+          </div>
+          <div class="cast-member">
+            <img
+              src="/media/actors_image_square_eyes/Fala-Chen.webp"
+              alt="Fala-Chen"
+              aria-describedby="cast-description-10"
+            />
+            <p class="cast-name">Fala Chen</p>
+            <p class="character-name">Iwi Queen</p>
+          </div>
+          <div class="cast-member">
+            <img
+              src="/media/actors_image_square_eyes/kevin-Copeland 1.jpg"
+              alt="kevin-Copeland"
+              aria-describedby="cast-description-11"
+            />
+            <p class="cast-name">Kevin Copeland</p>
+            <p class="character-name">Submarine Commander</p>
+          </div>
+          <div class="cast-member">
+            <img
+              src="/media/actors_image_square_eyes/Tess-Dobre.webp"
+              alt="Tess-Dobre"
+              aria-describedby="cast-description-12"
+            />
+            <p class="cast-name">Tess Dobre</p>
+            <p class="character-name">Submarine Officer</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Collection Section -->
+      <div class="collection">
+        <h3>Joker Collection</h3>
+        <div class="collection-grid">
+          <div class="collection-item">
+            <img
+              src="/media/the-french-dispatch/joker-1-collection.jpg"
+              alt="Movie poster for Joker."
+              aria-describedby="collection.movie-1"
+            />
+            <div class="collection-info">
+              <p>Joker</p>
+              <p class="collection-meta">Crime, Drama | 2h 2m</p>
+              <br />
+              <!-- Button to open the modal -->
+              <a
+                href="#modal"
+                class="open-modal-btn"
+                aria-describedby="open-the-modal-button"
+                >Rent or Buy</a
+              >
+            </div>
+          </div>
+          <div class="collection-item">
+            <img
+              src="/media/the-french-dispatch/joker-2-collection.jpg"
+              alt="Movie poster for Joker: Folie a Deux."
+              aria-describedby="collection.movie-2"
+            />
+            <div class="collection-info">
+              <p>Joker: Folie à Deux</p>
+              <p class="collection-meta">Drama, Thriller | 2h 18m</p>
+              <br />
+              <!-- Button to open the modal -->
+              <a href="#modal" class="open-modal-btn">Rent or Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <!-- Close button -->
+        <a href="#" class="close-modal">&times;</a>
+
+        <!-- Modal Header with Breadcrumbs -->
+        <div class="modal-header">
+          <h2>Payment Process</h2>
+          <div class="breadcrumbs">
+            <span class="breadcrumb active">Confirmation</span>
+            <span class="breadcrumb">Payment</span>
+            <span class="breadcrumb">Success</span>
+          </div>
+        </div>
+
+        <!-- Modal Body -->
+        <div class="modal-body">
+          <!-- Step 1: Confirmation -->
+          <div class="modal-step active">
+            <h3>Confirm Your Purchase</h3>
+            <p>Joker: Folie a Deux</p>
+            <form>
+              <div class="option-group">
+                <label>
+                  <input
+                    type="radio"
+                    name="purchase-option"
+                    value="rent"
+                    required
+                  />
+                  <span>Rent: NOK 49.00</span>
+                </label>
+                <label>
+                  <input type="radio" name="purchase-option" value="buy" />
+                  <span>Buy: NOK 179.00</span>
+                </label>
+              </div>
+              <a href="#payment" class="next-btn">Proceed to Payment</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Payment Modal Section -->
+    <div id="payment" class="modal">
+      <div class="modal-content">
+        <a href="#" class="close-modal">&times;</a>
+        <div class="modal-header">
+          <h2>Payment Process</h2>
+          <div class="breadcrumbs">
+            <span class="breadcrumb">Confirmation</span>
+            <span class="breadcrumb active">Payment</span>
+            <span class="breadcrumb">Success</span>
+          </div>
+        </div>
+        <div class="modal-body">
+          <h3>Payment Details</h3>
+          <form>
+            <label for="card-name">Cardholder's Name</label>
+            <input
+              type="text"
+              id="card-name"
+              placeholder="Enter your name"
+              required
+            />
+            <label for="card-number">Card Number</label>
+            <input
+              type="text"
+              id="card-number"
+              placeholder="1234 5678 9012 3456"
+              required
+            />
+            <label for="valid-date">Valid Date</label>
+            <input type="text" id="valid-date" placeholder="MM/YY" required />
+            <label for="cvv">CVS</label>
+            <input type="text" id="cvv" placeholder="123" required />
+            <a href="#success" class="next-btn">Confirm Payment</a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Success Modal Section -->
+    <div id="success" class="modal">
+      <div class="modal-content">
+        <a href="#" class="close-modal">&times;</a>
+        <div class="modal-header">
+          <h2>Payment Process</h2>
+          <div class="breadcrumbs">
+            <span class="breadcrumb">Confirmation</span>
+            <span class="breadcrumb">Payment</span>
+            <span class="breadcrumb active">Success</span>
+          </div>
+        </div>
+        <div class="modal-body">
+          <h3>Thank You for Your Purchase!</h3>
+          <p>
+            Your transaction with Square Eyes was successful. Enjoy your movie!
+          </p>
+          <a href="#" class="close-modal-btn">Start Watching</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section  -->
+
+    <footer class="c-footer">
+      <div class="footer-logo-container">
+        <img
+          class="logo-img"
+          src="/media/SquareEyes_Logo.png"
+          alt="A pair of glasses with eyes on top of the writing logo Square Eyes"
+          aria-describedby="logo-image"
+        />
+      </div>
+      <div class="footer-menu">
+        <small> Copyright 2024 Square Eyes CO.</small>
+        <a class="footer-menu-items">Privacy Policy</a>
+        <a class="footer-menu-items">Terms & Conditions</a>
+        <a class="footer-menu-items">Cookie Policy</a>
+        <a href="/contact.html" class="footer-menu-items">Contact </a>
+
+        <div class="fa-brands-icon-container">
+          <a class="fa-brands-title"> Follow Square Eyes on social</a>
+          <div class="fa-brands-icons">
+            <a><i class="fa-brands fa-facebook"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-discord"></i></a>
+            <a><i class="fa-brands fa-twitch"></i></a>
+            <a><i class="fa-brands fa-square-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr style="width: 98%; align-self: center; background-color: #ffe5ba" />
+    </footer>
+  </body>
+</html>
