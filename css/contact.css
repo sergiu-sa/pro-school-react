@@ -36,16 +36,16 @@
 
 @font-face {
   font-family: "montserrat";
-  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
-    url("../fonts/Montserrat-Regular.woff") format("woff");
+  src: url("./fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("./fonts/Montserrat-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
-    url("../fonts/Roboto-Regular.woff") format("woff");
+  src: url("./fonts/Roboto-Regular.woff2") format("woff2"),
+    url("./fonts/Roboto-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -211,7 +211,7 @@ nav ul a {
   flex-grow: 1;
   padding-left: 10px;
   color: var(--color-secondary);
-  display: none; /* Hide label by default */
+  display: none;
 }
 
 .c-header-search input {

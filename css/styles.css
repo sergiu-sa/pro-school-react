@@ -36,16 +36,16 @@
 
 @font-face {
   font-family: "montserrat";
-  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
-    url("../fonts/Montserrat-Regular.woff") format("woff");
+  src: url("./fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("./fonts/Montserrat-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
-    url("../fonts/Roboto-Regular.woff") format("woff");
+  src: url("./fonts/Roboto-Regular.woff2") format("woff2"),
+    url("./fonts/Roboto-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -273,7 +273,7 @@ nav ul a {
 /*  Banner   Section */
 
 .banner-section {
-  background-image: url(/media/hero_image_home.jpg);
+  background-image: url(./media/hero_image_home.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -297,8 +297,6 @@ nav ul a {
   padding: 20px;
   color: var(--color-primal);
 }
-
-
 
 .banner-content {
   text-align: center;
@@ -387,7 +385,7 @@ nav ul a {
 /* Banner Section FILMS */
 
 .banner-section-films {
-  background-image: url(/media/hero_image_home.jpg);
+  background-image: url(./media/hero_image_home.jpg);
   background-size: cover;
   background-position: center;
   width: 1372px;
@@ -608,47 +606,47 @@ nav ul a {
 }
 
 .category:nth-child(1) .category-box {
-  background-image: url(/media/movie-genre/comedy.jpg);
+  background-image: url(./media/movie-genre/comedy.jpg);
 }
 
 .category:nth-child(2) .category-box {
-  background-image: url(/media/movie-genre/sci-fi.jpg);
+  background-image: url(./media/movie-genre/sci-fi.jpg);
 }
 
 .category:nth-child(3) .category-box {
-  background-image: url(/media/movie-genre/action.jpg);
+  background-image: url(./media/movie-genre/action.jpg);
 }
 
 .category:nth-child(4) .category-box {
-  background-image: url(/media/movie-genre/horror.jpg);
+  background-image: url(./media/movie-genre/horror.jpg);
 }
 
 .category:nth-child(5) .category-box {
-  background-image: url(/media/movie-genre/fantasy.jpg);
+  background-image: url(./media/movie-genre/fantasy.jpg);
 }
 
 .category:nth-child(6) .category-box {
-  background-image: url(/media/movie-genre/history.jpg);
+  background-image: url(./media/movie-genre/history.jpg);
 }
 
 .category:nth-child(7) .category-box {
-  background-image: url(/media/movie-genre/musical.jpg);
+  background-image: url(./media/movie-genre/musical.jpg);
 }
 
 .category:nth-child(8) .category-box {
-  background-image: url(/media/movie-genre/romance-1.jpg);
+  background-image: url(./media/movie-genre/romance-1.jpg);
 }
 
 .category:nth-child(9) .category-box {
-  background-image: url(/media/movie-genre/drama.jpg);
+  background-image: url(./media/movie-genre/drama.jpg);
 }
 
 .category:nth-child(10) .category-box {
-  background-image: url(/media/movie-genre/western.jpg);
+  background-image: url(./media/movie-genre/western.jpg);
 }
 
 .category:nth-child(11) .category-box {
-  background-image: url(/media/movie-genre/thriler.jpg);
+  background-image: url(./media/movie-genre/thriler.jpg);
 }
 
 .category-box:hover {
