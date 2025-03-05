@@ -264,7 +264,7 @@ nav ul a {
 /* Banner Section */
 .banner {
   position: relative;
-  background-image: url(./media/banner-image-about.jpg);
+  background-image: url(/media/banner-image-about.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -414,7 +414,7 @@ nav ul a {
 /* Our Mission Section */
 .background-section-mission {
   position: relative;
-  background-image: url(./media/mission-4.jpg);
+  background-image: url(/media/mission-4.jpg);
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -473,7 +473,7 @@ nav ul a {
 /* Support Section  */
 .background-section {
   position: relative;
-  background-image: url(./media/about-support.jpg);
+  background-image: url(/media/about-support.jpg);
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -511,7 +511,7 @@ nav ul a {
 
 /* Explore Collection Section */
 .explore-section {
-  background-image: url(./media/our-mission-last.jpg);
+  background-image: url(/media/our-mission-last.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
