@@ -37,8 +37,8 @@ This site allows users to explore a selection of films and view featured details
 
 ### Updated Design
 
-![New Home 01](media/screenshots/new_home01.jpg/assets/screenshots/new_home01.jpg)  
-![New Home 02](media/screenshots/new_home02.jpgassets/screenshots/new_home02.jpg)
+![New Home 01](media/screenshots/new_home01.jpg)  
+![New Home 02](media/screenshots/new_home02.jpg)
 
 > These show the transition from the original student project to the final polished portfolio version.
 
