@@ -1,4 +1,4 @@
-# 🎬 Square Eyes — FED1 Semester Project 1
+#  Square Eyes — FED1 Semester Project 1
 
 **Square Eyes** is a responsive movie website originally built as Semester Project 1 for Noroff’s Front-End Development course. This version has been **refactored, redesigned, and improved** to better reflect professional web standards, meet portfolio brief criteria, and demonstrate my development and design process.
 
@@ -6,14 +6,14 @@ This site allows users to explore a selection of films and view featured details
 
 ---
 
-## 🔗 Live Project
+## Live Project
 
-👉 [Visit the Live Site](https://sergiu-sa.github.io/pro-school-react/)  
-📁 [View the GitHub Repository](https://github.com/sergiu-sa/pro-school-react)
+ [Visit the Live Site](https://sergiu-sa.github.io/pro-school-react/)  
+ [View the GitHub Repository](https://github.com/sergiu-sa/pro-school-react)
 
 ---
 
-## 📌 What This Project Demonstrates
+## What This Project Demonstrates
 
 - Semantic and well-structured HTML
 - Mobile-first responsive design using Flexbox and CSS Grid
@@ -28,14 +28,14 @@ This site allows users to explore a selection of films and view featured details
 
 ---
 
-## 🧾 Screenshots (Before vs. After)
+## Screenshots (Before vs. After)
 
-### 🧱 Old Design
+### Old Design
 
 ![Old Home 01](assets/screenshots/old_home01.jpg)  
 ![Old Home 02](assets/screenshots/old_home02.jpg)
 
-### 🚀 Updated Design
+### Updated Design
 
 ![New Home 01](assets/screenshots/new_home01.jpg)  
 ![New Home 02](assets/screenshots/new_home02.jpg)
@@ -44,7 +44,7 @@ This site allows users to explore a selection of films and view featured details
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **HTML5** — semantic, structured content
 - **CSS3** — layout, typography, transitions
@@ -53,11 +53,11 @@ This site allows users to explore a selection of films and view featured details
 
 ---
 
-## 📐 Figma Design
+## Figma Design
 
 - [Figma Prototype](https://www.figma.com/proto/mGplr3KAdMUUy4W6YiKshm/Design--CA--Project?node-id=383-1871&t=49Io8IWMx0CnAApi-1)
 
-## 💻 Local Development
+## Local Development
 
 If you want to run this project locally:
 
@@ -70,9 +70,9 @@ Then simply open `index.html` in a browser, or use a Live Server extension if yo
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Sergiu D Sarbu**  
-📎 [My GitHub Profile](https://github.com/sergiu-sa)
+[My GitHub Profile](https://github.com/sergiu-sa)
 
 ---
