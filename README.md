@@ -32,13 +32,13 @@ This site allows users to explore a selection of films and view featured details
 
 ### Old Design
 
-![Old Home 01](assets/screenshots/old_home01.jpg)  
-![Old Home 02](assets/screenshots/old_home02.jpg)
+![Old Home 01](media/screenshots/old_home01.jpg)  
+![Old Home 02](media/screenshots/old_home02.jpg)
 
 ### Updated Design
 
-![New Home 01](assets/screenshots/new_home01.jpg)  
-![New Home 02](assets/screenshots/new_home02.jpg)
+![New Home 01](media/screenshots/new_home01.jpg/assets/screenshots/new_home01.jpg)  
+![New Home 02](media/screenshots/new_home02.jpgassets/screenshots/new_home02.jpg)
 
 > These show the transition from the original student project to the final polished portfolio version.
 
