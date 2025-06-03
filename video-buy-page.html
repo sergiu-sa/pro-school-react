@@ -1,12 +1,12 @@
-k
 <!DOCTYPE html>
 <html lang="en">
  <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   Square Eyes | Film
+   Square Eyes | Joker: Folie à Deux - Rent or Buy
   </title>
+  <meta content="Watch Joker: Folie à Deux starring Joaquin Phoenix and Lady Gaga. Rent or buy this critically acclaimed psychological drama on Square Eyes." name="description"/>
   <link href="./css/video-buy-page.css" rel="stylesheet"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
@@ -21,33 +21,33 @@ k
      <!-- Hamburger Menu (Checkbox) -->
      <input class="menu-toggle" id="menu-toggle" type="checkbox"/>
      <label class="hamburger-menu" for="menu-toggle">
-      <i class="fa-solid fa-bars">
+      <i aria-hidden="true" class="fa-solid fa-bars">
       </i>
-      <i class="fa-solid fa-times">
+      <i aria-hidden="true" class="fa-solid fa-times">
       </i>
      </label>
      <div class="c-logo-nav">
-      <img alt="A pair of glasses with eyes on top of the writing logo Square Eyes" src="./media/SquareEyes_Logo.png"/>
+      <img alt="Square Eyes logo - connecting film lovers worldwide" src="./media/SquareEyes_Logo.png"/>
      </div>
      <!-- Navigation Links -->
      <ul id="nav-links">
       <li>
        <a href="./index.html">
-        <i class="fa-solid fa-house">
+        <i aria-hidden="true" class="fa-solid fa-house">
         </i>
         Home
        </a>
       </li>
       <li>
-       <a href="./film.html">
-        <i class="fa-solid fa-film">
+       <a aria-current="page" href="./film.html">
+        <i aria-hidden="true" class="fa-solid fa-film">
         </i>
         Films
        </a>
       </li>
       <li>
        <a href="./about.html">
-        <i class="fa-regular fa-address-card">
+        <i aria-hidden="true" class="fa-regular fa-address-card">
         </i>
         About
        </a>
@@ -56,14 +56,14 @@ k
      <!-- Icon Buttons -->
      <div class="c-header-icon-buttons">
       <div class="icon-button-div">
-       <a class="icon-button">
-        <i class="fa-solid fa-circle-user">
+       <a aria-label="User account" class="icon-button" href="#">
+        <i aria-hidden="true" class="fa-solid fa-circle-user">
         </i>
        </a>
       </div>
       <div class="icon-button-div">
-       <a class="icon-button">
-        <i class="fa-solid fa-cart-shopping">
+       <a aria-label="Shopping cart" class="icon-button" href="#">
+        <i aria-hidden="true" class="fa-solid fa-cart-shopping">
         </i>
        </a>
       </div>
@@ -74,18 +74,19 @@ k
      <label for="search">
       Search for Independent Movies
      </label>
-     <input aria-describedby="searchLabel" id="search" name="search" placeholder="Search" type="search"/>
-     <i class="fa-solid fa-magnifying-glass search-icon">
+     <input aria-describedby="searchLabel" id="search" name="search" placeholder="Search for independent films..." type="search"/>
+     <i aria-hidden="true" class="fa-solid fa-magnifying-glass search-icon">
      </i>
     </div>
    </div>
   </header>
-  <!-- Video Preview  Banner Section -->
+  <!-- Video Preview Banner Section -->
   <div class="movie-section">
    <div class="backdrop">
     <div class="content">
      <div class="movie-info">
       <div class="poster">
+       <!-- Movie poster placeholder with film icon -->
       </div>
       <div class="details">
        <h2 class="movie-title">
@@ -93,28 +94,28 @@ k
        </h2>
        <div class="movie-meta">
         <span class="genre">
-         <i class="fas fa-film">
+         <i aria-hidden="true" class="fas fa-film">
          </i>
          Drama
         </span>
         <span class="genre">
-         <i class="fas fa-film">
+         <i aria-hidden="true" class="fas fa-film">
          </i>
          Thriller
         </span>
         <span class="duration">
-         <i class="fas fa-clock">
+         <i aria-hidden="true" class="fas fa-clock">
          </i>
          138 min
         </span>
         <span class="rating">
-         <i class="fas fa-star">
+         <i aria-hidden="true" class="fas fa-star">
          </i>
          7.1 / 10
         </span>
        </div>
        <!-- Button to open the modal -->
-       <a aria-describedby="movie-rent-or-buy" class="open-modal-btn" href="#modal">
+       <a aria-label="Rent or buy Joker: Folie à Deux" class="open-modal-btn" href="#modal">
         Rent or Buy
        </a>
       </div>
@@ -122,12 +123,13 @@ k
     </div>
    </div>
   </div>
-  <!-- Trailer Section  -->
+  <!-- Trailer Section -->
   <div class="trailer-section">
    <div class="video-container">
-    <video controls="" poster="./media/trailers/joker-3.jpg">
-     <source src="./media/trailers/trailer-video.mp4" type="video/mp4"/>
-     Your browser does not support the HTML video.
+    <video aria-label="Joker: Folie à Deux movie trailer" controls="" poster="./media/trailers/joker-3.jpg">
+     <source src="./media/trailer/trailer-video.mp4" type="video/mp4"/>
+     <track kind="captions" label="English captions" src="./media/trailers/trailer-captions.vtt" srclang="en"/>
+     Your browser does not support the HTML video element.
     </video>
    </div>
    <div class="trailer-details">
@@ -156,17 +158,18 @@ k
     </div>
     <p>
      Struggling with his dual identity, failed comedian Arthur Fleck meets
-          the love of his life, Harley Quinn, while incarcerated at Arkham State
-          Hospital.
+        the love of his life, Harley Quinn, while incarcerated at Arkham State
+        Hospital.
     </p>
     <div class="trailer-buttons">
      <!-- Button to open the modal -->
-     <a aria-describedby="rent-or-buy-button" class="open-modal-btn" href="#modal">
+     <a aria-label="Rent or buy this movie" class="open-modal-btn" href="#modal">
       Rent or Buy
      </a>
     </div>
    </div>
   </div>
+  <!-- Cast and Collection Section -->
   <div class="cast-collection-section">
    <!-- Top Cast Section -->
    <div class="top-cast">
@@ -175,7 +178,7 @@ k
     </h3>
     <div class="cast-grid">
      <div class="cast-member">
-      <img alt="Rebecca Hall" aria-describedby="cast-description-1" src=".media/actors_image_square_eyes/Rebecca-Hall.webp"/>
+      <img alt="Rebecca Hall as Ilene Andrews" aria-describedby="cast-description-1" src="./media/actors_image_square_eyes/Rebecca-Hall.webp"/>
       <p class="cast-name">
        Rebecca Hall
       </p>
@@ -184,7 +187,7 @@ k
       </p>
      </div>
      <div class="cast-member">
-      <img alt="Brian Tyree Henry" aria-describedby="cast-description-2" src="./media/actors_image_square_eyes/Brian-Tyree-Henry.webp"/>
+      <img alt="Brian Tyree Henry as Bernie Hayes" aria-describedby="cast-description-2" src="./media/actors_image_square_eyes/Brian-Tyree-Henry.webp"/>
       <p class="cast-name">
        Brian Tyree Henry
       </p>
@@ -193,7 +196,7 @@ k
       </p>
      </div>
      <div class="cast-member">
-      <img alt="Rachel House" aria-describedby="cast-description-3" src="./media/actors_image_square_eyes/Rachel-House.webp"/>
+      <img alt="Rachel House as Hampton" aria-describedby="cast-description-3" src="./media/actors_image_square_eyes/Rachel-House.webp"/>
       <p class="cast-name">
        Rachel House
       </p>
@@ -202,7 +205,7 @@ k
       </p>
      </div>
      <div class="cast-member">
-      <img alt="Ron Smyck" aria-describedby="cast-description-4" src="./media/actors_image_square_eyes/Ron-Smyck.webp"/>
+      <img alt="Ron Smyck as Harris" aria-describedby="cast-description-4" src="./media/actors_image_square_eyes/Ron-Smyck.webp"/>
       <p class="cast-name">
        Ron Smyck
       </p>
@@ -211,7 +214,7 @@ k
       </p>
      </div>
      <div class="cast-member">
-      <img alt="dan Stevens" aria-describedby="cast-description-5" src="./media/actors_image_square_eyes/Dan-Stevens.webp"/>
+      <img alt="Dan Stevens as Trapper" aria-describedby="cast-description-5" src="./media/actors_image_square_eyes/Dan-Stevens.webp"/>
       <p class="cast-name">
        Dan Stevens
       </p>
@@ -220,7 +223,7 @@ k
       </p>
      </div>
      <div class="cast-member">
-      <img alt="Kaylee" aria-describedby="cast-description-6" src="./media/actors_image_square_eyes/Kaylee-Hottle.webp"/>
+      <img alt="Kaylee Hottle as Jia" aria-describedby="cast-description-6" src="./media/actors_image_square_eyes/Kaylee-Hottle.webp"/>
       <p class="cast-name">
        Kaylee Hottle
       </p>
@@ -229,7 +232,7 @@ k
       </p>
      </div>
      <div class="cast-member">
-      <img alt="Chantelle-Jamieson" aria-describedby="cast-description-7" src="./media/actors_image_square_eyes/Chantelle-Jamieson.webp"/>
+      <img alt="Chantelle Jamieson as Ilene Jayne" aria-describedby="cast-description-7" src="./media/actors_image_square_eyes/Chantelle-Jamieson.webp"/>
       <p class="cast-name">
        Chantelle Jamieson
       </p>
@@ -238,7 +241,7 @@ k
       </p>
      </div>
      <div class="cast-member">
-      <img alt="Greg-Hatton" aria-describedby="cast-description-8" src="./media/actors_image_square_eyes/Greg-Hatton.webp"/>
+      <img alt="Greg Hatton as Lewis" aria-describedby="cast-description-8" src="./media/actors_image_square_eyes/Greg-Hatton.webp"/>
       <p class="cast-name">
        Greg Hatton
       </p>
@@ -247,7 +250,7 @@ k
       </p>
      </div>
      <div class="cast-member">
-      <img alt="Alex-Ferns" aria-describedby="cast-description-9" src="./media/actors_image_square_eyes/Alex-Ferns.webp"/>
+      <img alt="Alex Ferns as Mikael" aria-describedby="cast-description-9" src="./media/actors_image_square_eyes/Alex-Ferns.webp"/>
       <p class="cast-name">
        Alex Ferns
       </p>
@@ -256,7 +259,7 @@ k
       </p>
      </div>
      <div class="cast-member">
-      <img alt="Fala-Chen" aria-describedby="cast-description-10" src="./media/actors_image_square_eyes/Fala-Chen.webp"/>
+      <img alt="Fala Chen as Iwi Queen" aria-describedby="cast-description-10" src="./media/actors_image_square_eyes/Fala-Chen.webp"/>
       <p class="cast-name">
        Fala Chen
       </p>
@@ -265,7 +268,7 @@ k
       </p>
      </div>
      <div class="cast-member">
-      <img alt="kevin-Copeland" aria-describedby="cast-description-11" src="./media/actors_image_square_eyes/kevin-Copeland 1.jpg"/>
+      <img alt="Kevin Copeland as Submarine Commander" aria-describedby="cast-description-11" src="./media/actors_image_square_eyes/kevin-Copeland 1.jpg"/>
       <p class="cast-name">
        Kevin Copeland
       </p>
@@ -274,7 +277,7 @@ k
       </p>
      </div>
      <div class="cast-member">
-      <img alt="Tess-Dobre" aria-describedby="cast-description-12" src="./media/actors_image_square_eyes/Tess-Dobre.webp"/>
+      <img alt="Tess Dobre as Submarine Officer" aria-describedby="cast-description-12" src="./media/actors_image_square_eyes/Tess-Dobre.webp"/>
       <p class="cast-name">
        Tess Dobre
       </p>
@@ -291,7 +294,7 @@ k
     </h3>
     <div class="collection-grid">
      <div class="collection-item">
-      <img alt="Movie poster for Joker." aria-describedby="collection.movie-1" src="./media/the-french-dispatch/joker-1-collection.jpg"/>
+      <img alt="Joker (2019) movie poster featuring Joaquin Phoenix" aria-describedby="collection-movie-1" src="./media/the-french-dispatch/joker-1-collection.jpg"/>
       <div class="collection-info">
        <p>
         Joker
@@ -301,13 +304,13 @@ k
        </p>
        <br/>
        <!-- Button to open the modal -->
-       <a aria-describedby="open-the-modal-button" class="open-modal-btn" href="#modal">
+       <a aria-label="Rent or buy the original Joker movie" class="open-modal-btn" href="#modal">
         Rent or Buy
        </a>
       </div>
      </div>
      <div class="collection-item">
-      <img alt="Movie poster for Joker: Folie a Deux." aria-describedby="collection.movie-2" src="./media/the-french-dispatch/joker-2-collection.jpg"/>
+      <img alt="Joker: Folie à Deux (2024) movie poster featuring Joaquin Phoenix and Lady Gaga" aria-describedby="collection-movie-2" src="./media/the-french-dispatch/joker-2-collection.jpg"/>
       <div class="collection-info">
        <p>
         Joker: Folie à Deux
@@ -317,7 +320,7 @@ k
        </p>
        <br/>
        <!-- Button to open the modal -->
-       <a class="open-modal-btn" href="#modal">
+       <a aria-label="Rent or buy Joker: Folie à Deux" class="open-modal-btn" href="#modal">
         Rent or Buy
        </a>
       </div>
@@ -325,11 +328,12 @@ k
     </div>
    </div>
   </div>
-  <!-- Modal Structure -->
+  <!-- CSS-Only Modal System -->
+  <!-- Confirmation Modal -->
   <div class="modal" id="modal">
    <div class="modal-content">
     <!-- Close button -->
-    <a class="close-modal" href="#">
+    <a aria-label="Close modal" class="close-modal" href="#">
      ×
     </a>
     <!-- Modal Header with Breadcrumbs -->
@@ -351,30 +355,29 @@ k
     </div>
     <!-- Modal Body -->
     <div class="modal-body">
-     <!-- Step 1: Confirmation -->
      <div class="modal-step active">
       <h3>
        Confirm Your Purchase
       </h3>
       <p>
-       Joker: Folie a Deux
+       Joker: Folie à Deux
       </p>
       <form>
        <div class="option-group">
         <label>
          <input name="purchase-option" required="" type="radio" value="rent"/>
          <span>
-          Rent: NOK 49.00
+          Rent: NOK 49.00 (48 hour access)
          </span>
         </label>
         <label>
          <input name="purchase-option" type="radio" value="buy"/>
          <span>
-          Buy: NOK 179.00
+          Buy: NOK 179.00 (Own forever)
          </span>
         </label>
        </div>
-       <a class="next-btn" href="#payment">
+       <a aria-label="Proceed to payment" class="next-btn" href="#payment">
         Proceed to Payment
        </a>
       </form>
@@ -382,10 +385,10 @@ k
     </div>
    </div>
   </div>
-  <!-- Payment Modal Section -->
+  <!-- Payment Modal -->
   <div class="modal" id="payment">
    <div class="modal-content">
-    <a class="close-modal" href="#">
+    <a aria-label="Close payment modal" class="close-modal" href="#">
      ×
     </a>
     <div class="modal-header">
@@ -412,30 +415,30 @@ k
       <label for="card-name">
        Cardholder's Name
       </label>
-      <input id="card-name" placeholder="Enter your name" required="" type="text"/>
+      <input id="card-name" placeholder="Enter your full name" required="" type="text"/>
       <label for="card-number">
        Card Number
       </label>
-      <input id="card-number" placeholder="1234 5678 9012 3456" required="" type="text"/>
+      <input id="card-number" maxlength="19" placeholder="1234 5678 9012 3456" required="" type="text"/>
       <label for="valid-date">
-       Valid Date
+       Expiry Date
       </label>
-      <input id="valid-date" placeholder="MM/YY" required="" type="text"/>
+      <input id="valid-date" maxlength="5" placeholder="MM/YY" required="" type="text"/>
       <label for="cvv">
-       CVS
+       CVV
       </label>
-      <input id="cvv" placeholder="123" required="" type="text"/>
-      <a class="next-btn" href="#success">
+      <input id="cvv" maxlength="4" placeholder="123" required="" type="text"/>
+      <a aria-label="Confirm payment and complete purchase" class="next-btn" href="#success">
        Confirm Payment
       </a>
      </form>
     </div>
    </div>
   </div>
-  <!-- Success Modal Section -->
+  <!-- Success Modal -->
   <div class="modal" id="success">
    <div class="modal-content">
-    <a class="close-modal" href="#">
+    <a aria-label="Close success modal" class="close-modal" href="#">
      ×
     </a>
     <div class="modal-header">
@@ -459,33 +462,33 @@ k
       Thank You for Your Purchase!
      </h3>
      <p>
-      Your transaction with Square Eyes was successful. Enjoy your movie!
+      Your transaction with Square Eyes was successful. You can now enjoy watching Joker: Folie à Deux!
      </p>
-     <a class="close-modal-btn" href="#">
+     <a aria-label="Start watching your movie" class="close-modal-btn" href="#">
       Start Watching
      </a>
     </div>
    </div>
   </div>
-  <!-- Footer Section  -->
+  <!-- Footer Section -->
   <footer class="c-footer">
    <div class="footer-logo-container">
-    <img alt="A pair of glasses with eyes on top of the writing logo Square Eyes" aria-describedby="logo-image" class="logo-img" src="./media/SquareEyes_Logo.png"/>
+    <img alt="Square Eyes logo featuring glasses symbolizing film lovers connecting worldwide" aria-describedby="footer-logo" class="logo-img" src="./media/SquareEyes_Logo.png"/>
    </div>
    <div class="footer-menu">
     <small>
      Copyright 2024 Square Eyes CO.
     </small>
-    <a class="footer-menu-items">
+    <a aria-label="Privacy Policy" class="footer-menu-items" href="#">
      Privacy Policy
     </a>
-    <a class="footer-menu-items">
+    <a aria-label="Terms and Conditions" class="footer-menu-items" href="#">
      Terms &amp; Conditions
     </a>
-    <a class="footer-menu-items">
+    <a aria-label="Cookie Policy" class="footer-menu-items" href="#">
      Cookie Policy
     </a>
-    <a class="footer-menu-items" href="./contact.html">
+    <a aria-label="Contact Square Eyes" class="footer-menu-items" href="./contact.html">
      Contact
     </a>
     <div class="fa-brands-icon-container">
@@ -493,24 +496,24 @@ k
       Follow Square Eyes on social
      </a>
      <div class="fa-brands-icons">
-      <a>
-       <i class="fa-brands fa-facebook">
+      <a aria-label="Follow us on Facebook" href="#">
+       <i aria-hidden="true" class="fa-brands fa-facebook">
        </i>
       </a>
-      <a>
-       <i class="fa-brands fa-instagram">
+      <a aria-label="Follow us on Instagram" href="#">
+       <i aria-hidden="true" class="fa-brands fa-instagram">
        </i>
       </a>
-      <a>
-       <i class="fa-brands fa-discord">
+      <a aria-label="Join our Discord community" href="#">
+       <i aria-hidden="true" class="fa-brands fa-discord">
        </i>
       </a>
-      <a>
-       <i class="fa-brands fa-twitch">
+      <a aria-label="Watch us on Twitch" href="#">
+       <i aria-hidden="true" class="fa-brands fa-twitch">
        </i>
       </a>
-      <a>
-       <i class="fa-brands fa-square-x-twitter">
+      <a aria-label="Follow us on Twitter" href="#">
+       <i aria-hidden="true" class="fa-brands fa-square-x-twitter">
        </i>
       </a>
      </div>

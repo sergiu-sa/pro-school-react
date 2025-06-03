@@ -1,206 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Square Eyes | About Us</title>
-    <link rel="stylesheet" href="./css/about_us.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body>
-    <!-- Header -->
-    <header>
-      <div class="container-nav">
-        <!-- Navigation Bar -->
-        <nav>
-          <!-- Hamburger Menu (Checkbox) -->
-          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
-          <label for="menu-toggle" class="hamburger-menu">
-            <i class="fa-solid fa-bars"></i>
-            <i class="fa-solid fa-times"></i>
-          </label>
-
-          <div class="c-logo-nav">
-            <img
-              src="./media/SquareEyes_Logo.png"
-              alt="A pair of glasses with eyes on top of the writing logo Square Eyes"
-            />
-          </div>
-
-          <!-- Navigation Links -->
-          <ul id="nav-links">
-            <li>
-              <a href="./index.html"><i class="fa-solid fa-house"></i>Home</a>
-            </li>
-            <li>
-              <a href="./film.html"><i class="fa-solid fa-film"></i>Films</a>
-            </li>
-            <li>
-              <a href="./about.html"
-                ><i class="fa-regular fa-address-card"></i>About</a
-              >
-            </li>
-          </ul>
-
-          <!-- Icon Buttons -->
-          <div class="c-header-icon-buttons">
-            <div class="icon-button-div">
-              <a class="icon-button"><i class="fa-solid fa-circle-user"></i></a>
-            </div>
-            <div class="icon-button-div">
-              <a class="icon-button"
-                ><i class="fa-solid fa-cart-shopping"></i
-              ></a>
-            </div>
-          </div>
-        </nav>
-
-        <!-- Search Bar -->
-        <div class="c-header-search">
-          <label for="search">Search for Independent Movies</label>
-          <input
-            type="search"
-            id="search"
-            name="search"
-            placeholder="Search"
-            aria-describedby="searchLabel"
-          />
-          <i class="fa-solid fa-magnifying-glass search-icon"></i>
-        </div>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Square Eyes | About Us - Supporting Independent Filmmakers
+  </title>
+  <meta content="Learn about Square Eyes' mission to support independent filmmakers and connect film lovers worldwide. Discover our story, values, and commitment to creative cinema." name="description"/>
+  <link href="./css/about_us.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body>
+  <!-- Header -->
+  <header>
+   <div class="container-nav">
+    <!-- Navigation Bar -->
+    <nav>
+     <!-- Hamburger Menu (Checkbox) -->
+     <input class="menu-toggle" id="menu-toggle" type="checkbox"/>
+     <label class="hamburger-menu" for="menu-toggle">
+      <i aria-hidden="true" class="fa-solid fa-bars">
+      </i>
+      <i aria-hidden="true" class="fa-solid fa-times">
+      </i>
+     </label>
+     <div class="c-logo-nav">
+      <img alt="Square Eyes logo - connecting film lovers worldwide through independent cinema" src="./media/SquareEyes_Logo.png"/>
+     </div>
+     <!-- Navigation Links -->
+     <ul id="nav-links">
+      <li>
+       <a href="./index.html">
+        <i aria-hidden="true" class="fa-solid fa-house">
+        </i>
+        Home
+       </a>
+      </li>
+      <li>
+       <a href="./film.html">
+        <i aria-hidden="true" class="fa-solid fa-film">
+        </i>
+        Films
+       </a>
+      </li>
+      <li>
+       <a aria-current="page" href="./about.html">
+        <i aria-hidden="true" class="fa-regular fa-address-card">
+        </i>
+        About
+       </a>
+      </li>
+     </ul>
+     <!-- Icon Buttons -->
+     <div class="c-header-icon-buttons">
+      <div class="icon-button-div">
+       <a aria-label="User account" class="icon-button" href="#">
+        <i aria-hidden="true" class="fa-solid fa-circle-user">
+        </i>
+       </a>
       </div>
-    </header>
-
-    <!-- Banner Section -->
-    <section class="banner">
-      <div class="banner-content">
-        <h1>Connecting<br />Film<br />Lovers</h1>
-        <button class="explore-button">Explore our Collection</button>
+      <div class="icon-button-div">
+       <a aria-label="Shopping cart" class="icon-button" href="#">
+        <i aria-hidden="true" class="fa-solid fa-cart-shopping">
+        </i>
+       </a>
       </div>
-    </section>
-
-    <!-- Support Section -->
-    <section class="background-section">
-      <div class="text-overlay">
-        <h1>Support Small<br />Film-Mackers</h1>
-        <p>
-          Support Independent Filmmakers: By giving creators a platform to
-          showcase their work, we empower filmmakers who otherwise might not
-          have the chance to reach a wide audience. Celebrate Creativity: We
-          believe in fostering creativity in cinema, offering viewers fresh
-          perspectives and narratives that challenge the status quo. Build a
-          Community of Film Lovers: We aim to create a global community where
-          film lovers can discover, share, and support independent cinema.
-        </p>
-      </div>
-    </section>
-
-    <!-- Our Story Section -->
-
-    <section class="our-story-section">
-      <div class="image-container-story">
-        <img
-          src="./media/collage_square_eyes_vnovfc/collage_square_eyes_vnovfc_c_scale,w_2000.jpg"
-          alt="Abstract artwork featuring a film reel, hat, and shadow on a red background"
-          class="story-image"
-          aria-describedby="collage-image"
-        />
-      </div>
-      <div class="text-container">
-        <h2 class="section-title">Our<br />Story:</h2>
-        <h3 class="section-subtitle">Begins with the Love for Indie Films</h3>
-        <p class="section-text">
-          <strong>Square Eyes</strong> is a platform for discovery, creativity,
-          and connection. Frustrated by the dominance of big-budget
-          blockbusters, our founders set out to create a space where films that
-          break the mold could thrive. We give independent filmmakers a stage to
-          showcase their work and provide audiences with unique stories that
-          challenge conventions and inspire thought.
-        </p>
-        <p class="section-text">
-          At Square Eyes, we champion the dreamers and risk-takers—creators who
-          craft bold, authentic films you won’t find anywhere else. Our curated
-          collection offers films that captivate, move, and make you think,
-          bringing fresh perspectives and unheard voices to the forefront.
-        </p>
-        <p class="section-text">
-          When you browse through Square Eyes, we offer films that captivate the
-          imagination, films that stir emotions, and films that make you think
-          long after the credits roll. Here, you’ll find new perspectives and
-          unheard voices, each one offering something truly special.
-        </p>
-      </div>
-    </section>
-
-    <!-- Our Mission Section -->
-    <section class="background-section-mission">
-      <div class="text-overlay-mission">
-        <h1>Our Mission:</h1>
-        <p>
-          Every film you watch on Square Eyes is more than just entertainment;
-          it’s a way to support passionate creators and bring their stories to
-          life. Our mission is to create a community where indie filmmakers can
-          showcase their work and connect with viewers who are eager for
-          original, creative films. Every purchase directly supports filmmakers,
-          allowing them to continue telling the stories that matter.
-        </p>
-      </div>
-    </section>
-
-    <!-- Explore Collection Section-->
-    <section class="explore-section">
-      <div class="overlay-explore-section">
-        <img
-          class="about-logo-explore"
-          src="./media/SquareEyes_Logo.png"
-          alt="Square Eyes logo with the writing Connecting Film-Lovers"
-          aria-describedby="logo-image"
-        />
-        <button class="explore-button">Explore</button>
-      </div>
-    </section>
-
-    <!-- Footer Section  -->
-
-    <footer class="c-footer">
-      <div class="footer-logo-container">
-        <img
-          class="logo-img"
-          src="./media/SquareEyes_Logo.png"
-          alt="A pair of glasses with eyes on top of the writing logo Square Eyes"
-          aria-describedby="logo-image"
-        />
-      </div>
-      <div class="footer-menu">
-        <small> Copyright 2024 Square Eyes CO.</small>
-        <a class="footer-menu-items">Privacy Policy</a>
-        <a class="footer-menu-items">Terms & Conditions</a>
-        <a class="footer-menu-items">Cookie Policy</a>
-        <a href="./contact.html" class="footer-menu-items">Contact </a>
-
-        <div class="fa-brands-icon-container">
-          <a class="fa-brands-title"> Follow Square Eyes on social</a>
-          <div class="fa-brands-icons">
-            <a><i class="fa-brands fa-facebook"></i></a>
-            <a><i class="fa-brands fa-instagram"></i></a>
-            <a><i class="fa-brands fa-discord"></i></a>
-            <a><i class="fa-brands fa-twitch"></i></a>
-            <a><i class="fa-brands fa-square-x-twitter"></i></a>
-          </div>
-        </div>
-      </div>
-      <hr style="width: 98%; align-self: center; background-color: #ffe5ba" />
-    </footer>
-  </body>
+     </div>
+    </nav>
+    <!-- Search Bar -->
+    <div class="c-header-search">
+     <label for="search">
+      Search for Independent Movies
+     </label>
+     <input aria-describedby="searchLabel" id="search" name="search" placeholder="Search for independent films..." type="search"/>
+     <i aria-hidden="true" class="fa-solid fa-magnifying-glass search-icon">
+     </i>
+    </div>
+   </div>
+  </header>
+  <!-- Banner Section -->
+  <section class="banner">
+   <div class="banner-content">
+    <h1>
+     Connecting
+     <br/>
+     Film
+     <br/>
+     Lovers
+    </h1>
+    <button aria-label="Explore our film collection" class="explore-button">
+     Explore our Collection
+    </button>
+   </div>
+  </section>
+  <!-- Support Section -->
+  <section class="background-section">
+   <div class="text-overlay">
+    <h1>
+     Support Small
+     <br/>
+     Film-Makers
+    </h1>
+    <p>
+     <strong>
+      Support Independent Filmmakers:
+     </strong>
+     By giving creators a platform to
+        showcase their work, we empower filmmakers who otherwise might not
+        have the chance to reach a wide audience.
+     <strong>
+      Celebrate Creativity:
+     </strong>
+     We believe in fostering creativity in cinema, offering viewers fresh
+        perspectives and narratives that challenge the status quo.
+     <strong>
+      Build a Community of Film Lovers:
+     </strong>
+     We aim to create a global community where
+        film lovers can discover, share, and support independent cinema that moves and inspires.
+    </p>
+   </div>
+  </section>
+  <!-- Our Story Section -->
+  <section class="our-story-section">
+   <div class="image-container-story">
+    <img alt="Creative collage featuring abstract film elements including reels, artistic shadows, and cinematic imagery representing Square Eyes' passion for independent filmmaking" aria-describedby="collage-image" class="story-image" src="./media/our_story.jpg"/>
+   </div>
+   <div class="text-container">
+    <h2 class="section-title">
+     Our
+     <br/>
+     Story:
+    </h2>
+    <h3 class="section-subtitle">
+     Begins with the Love for Indie Films
+    </h3>
+    <p class="section-text">
+     <strong>
+      Square Eyes
+     </strong>
+     is a platform for discovery, creativity,
+        and connection. Frustrated by the dominance of big-budget
+        blockbusters, our founders set out to create a space where films that
+        break the mold could thrive. We give independent filmmakers a stage to
+        showcase their work and provide audiences with unique stories that
+        challenge conventions and inspire thought.
+    </p>
+    <p class="section-text">
+     At Square Eyes, we champion the dreamers and risk-takers—creators who
+        craft bold, authentic films you won't find anywhere else. Our curated
+        collection offers films that captivate, move, and make you think,
+        bringing fresh perspectives and unheard voices to the forefront of cinema.
+    </p>
+    <p class="section-text">
+     When you browse through Square Eyes, you'll discover films that captivate the
+        imagination, stir emotions, and make you think long after the credits roll. 
+        Here, you'll find new perspectives and unheard voices, each offering something 
+        truly special that enriches the landscape of independent filmmaking.
+    </p>
+   </div>
+  </section>
+  <!-- Our Mission Section -->
+  <section class="background-section-mission">
+   <div class="text-overlay-mission">
+    <h1>
+     Our Mission:
+    </h1>
+    <p>
+     Every film you watch on Square Eyes is more than just entertainment;
+        it's a way to support passionate creators and bring their stories to
+        life. Our mission is to create a thriving community where indie filmmakers can
+        showcase their work and connect with viewers who are eager for
+        original, creative films that push boundaries and explore new territories.
+    </p>
+    <p>
+     Every purchase directly supports filmmakers, enabling them to continue telling the stories that matter
+        and funding their next creative endeavors. We believe in the power of cinema to change perspectives,
+        spark conversations, and build bridges between diverse communities around the world.
+    </p>
+   </div>
+  </section>
+  <!-- Explore Collection Section-->
+  <section class="explore-section">
+   <div class="overlay-explore-section">
+    <img alt="Square Eyes logo with tagline 'Connecting Film-Lovers' representing our mission to unite independent film enthusiasts globally" aria-describedby="logo-image" class="about-logo-explore" src="./media/SquareEyes_Logo.png"/>
+    <button aria-label="Start exploring our independent film collection" class="explore-button">
+     Explore
+    </button>
+   </div>
+  </section>
+  <!-- Footer Section -->
+  <footer class="c-footer">
+   <div class="footer-logo-container">
+    <img alt="Square Eyes logo featuring glasses symbolizing film lovers connecting worldwide through independent cinema" aria-describedby="footer-logo-image" class="logo-img" src="./media/SquareEyes_Logo.png"/>
+   </div>
+   <div class="footer-menu">
+    <small>
+     Copyright 2024 Square Eyes CO.
+    </small>
+    <a aria-label="Privacy Policy" class="footer-menu-items" href="#">
+     Privacy Policy
+    </a>
+    <a aria-label="Terms and Conditions" class="footer-menu-items" href="#">
+     Terms &amp; Conditions
+    </a>
+    <a aria-label="Cookie Policy" class="footer-menu-items" href="#">
+     Cookie Policy
+    </a>
+    <a aria-label="Contact Square Eyes" class="footer-menu-items" href="./contact.html">
+     Contact
+    </a>
+    <div class="fa-brands-icon-container">
+     <a class="fa-brands-title">
+      Follow Square Eyes on social
+     </a>
+     <div class="fa-brands-icons">
+      <a aria-label="Follow us on Facebook" href="#">
+       <i aria-hidden="true" class="fa-brands fa-facebook">
+       </i>
+      </a>
+      <a aria-label="Follow us on Instagram" href="#">
+       <i aria-hidden="true" class="fa-brands fa-instagram">
+       </i>
+      </a>
+      <a aria-label="Join our Discord community" href="#">
+       <i aria-hidden="true" class="fa-brands fa-discord">
+       </i>
+      </a>
+      <a aria-label="Watch us on Twitch" href="#">
+       <i aria-hidden="true" class="fa-brands fa-twitch">
+       </i>
+      </a>
+      <a aria-label="Follow us on Twitter" href="#">
+       <i aria-hidden="true" class="fa-brands fa-square-x-twitter">
+       </i>
+      </a>
+     </div>
+    </div>
+   </div>
+   <hr style="width: 98%; align-self: center; background-color: #ffe5ba"/>
+  </footer>
+ </body>
 </html>
