@@ -1,30 +1,17 @@
-#  Square Eyes — FED1 Semester Project 1
+# Square Eyes – Film Discovery Website
 
-**Square Eyes** is a responsive movie website originally built as Semester Project 1 for Noroff’s Front-End Development course. This version has been **refactored, redesigned, and improved** to better reflect professional web standards, meet portfolio brief criteria, and demonstrate my development and design process.
+## Project Overview
 
-This site allows users to explore a selection of films and view featured details in a clean, modern layout. The project showcases semantic HTML, CSS layout skills (Flexbox & Grid), accessibility principles, responsive behavior, and attention to visual hierarchy and UX.
+Square Eyes is a fictional streaming and movie browsing platform created as part of Noroff’s Front-End Development coursework. This was an individual project where the goal was to practice semantic HTML, structured layouts, reusable components, and visual hierarchy.
 
----
-
-## Live Project
-
- [Visit the Live Site](https://sergiu-sa.github.io/pro-school-react/)  
- [View the GitHub Repository](https://github.com/sergiu-sa/pro-school-react)
+The site allows users to browse a curated list of movies, view detailed information about each title, and simulate purchasing or adding to a watchlist. The project emphasizes accessibility, clean structure, responsive layout, and visually engaging presentation.
 
 ---
 
-## What This Project Demonstrates
+## Links
 
-- Semantic and well-structured HTML
-- Mobile-first responsive design using Flexbox and CSS Grid
-- Clean UI/UX design principles and improved visual hierarchy
-- Accessible markup (alt attributes, ARIA support, input labeling)
-- WCAG compliance for contrast and keyboard navigation
-- SEO-ready meta tags and structured document titles
-- Optimized performance with lazy loading and compressed assets
-- A custom 404 page
-- No JavaScript or frameworks used — 100% HTML/CSS
-- Improved based on real feedback and professional critique
+- Live Site: [https://square-eyes-site.netlify.app](https://square-eyes-site.netlify.app)
+- GitHub Repo: [https://github.com/sergiu-sa/pro-school-react](https://github.com/sergiu-sa/pro-school-react)
 
 ---
 
@@ -46,33 +33,83 @@ This site allows users to explore a selection of films and view featured details
 
 ## Tech Stack
 
-- **HTML5** — semantic, structured content
-- **CSS3** — layout, typography, transitions
-- **Vite** — local development, builds
-- **Git** / **GitHub** — version control and collaboration
+- HTML5
+- CSS3 (Responsive, Mobile-First)
+- Vanilla JavaScript (for interactivity)
+- Image optimization and lazy loading
+- Netlify for deployment
 
 ---
 
-## Figma Design
+## Features
 
-- [Figma Prototype](https://www.figma.com/proto/mGplr3KAdMUUy4W6YiKshm/Design--CA--Project?node-id=383-1871&t=49Io8IWMx0CnAApi-1)
+- Hero banner with featured film
+- Trending section with hover animations
+- Movie cards with title, genre, and CTA
+- Single product page with expanded information
+- Functional layout for checkout and confirmation flow
+- Reusable components with consistent styling
+- Accessible HTML (alt text, semantic tags, landmarks)
+- Mobile-friendly navigation and spacing
 
-## Local Development
+---
 
-If you want to run this project locally:
+## Project Goals
+
+- Practice clean, semantic HTML and structured CSS
+- Create a visually balanced layout with clear hierarchy
+- Ensure responsiveness across device sizes
+- Begin introducing interactivity using vanilla JavaScript
+- Showcase design skills through consistent, appealing visuals
+
+---
+
+## Folder Structure
 
 ```bash
-git clone https://github.com/sergiu-sa/pro-school-react.git
-cd pro-school-react
+square-eyes/
+│
+├── index.html                     # Homepage
+├── src/
+│   ├── pages/
+│   │   ├── product/index.html     # Single movie page
+│   │   ├── checkout/index.html    # Checkout flow
+│   │   └── confirmation/index.html# Order confirmation
+│   ├── css/
+│   │   └── style.css              # Global styles (sectioned)
+│   ├── js/
+│   │   ├── main.js                # Homepage logic
+│   │   ├── product.js             # Product logic
+│   │   ├── checkout.js            # Checkout form validation
+│   │   ├── cart.js                # Shopping cart logic
+│   │   └── confirmation.js        # Final summary logic
 ```
 
-Then simply open `index.html` in a browser, or use a Live Server extension if you're using VS Code.
+---
+
+## My Role
+
+This was a solo project. I was responsible for:
+
+- Creating the full HTML structure from scratch
+- Designing and coding the layout and navigation
+- Adding responsive styles and animations
+- Organizing code into reusable sections
+- Implementing accessibility features
 
 ---
 
-##  Author
+## Current Status
 
-**Sergiu D Sarbu**  
-[My GitHub Profile](https://github.com/sergiu-sa)
+The project is deployed and functional.  
+Planned updates include:
+
+- Better movie categorization and filtering
+- Additional accessibility improvements
+- Enhanced confirmation UX with animations
 
 ---
+
+## Contact
+
+- GitHub: [https://github.com/sergiu-sa](https://github.com/sergiu-sa)
